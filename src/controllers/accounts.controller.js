@@ -1,5 +1,5 @@
 import service from '../services/accounts.services.js';
-import validators from '../Helpers/validators.js';
+import validators from '../helpers/validators.js';
 
 const _sendException = (err, res) => {
   res.status(400).send({ error: err.message });
